@@ -30,9 +30,10 @@ def run_theharvester(domain):
     print(f"\nSearching information for domain '{domain}' ...\n")
     try:
         result = subprocess.run(
-            ["theHarvester", "-d", domain, "-b", "all"],
+            ["python", "theHarvester.py", "-d", domain, "-b", "all"],
             capture_output=True,
-            text=True
+            text=True,
+            cwd="theHarvester"
         )
         return result.stdout if result.stdout else "Tidak ditemukan."
     except Exception as e:
