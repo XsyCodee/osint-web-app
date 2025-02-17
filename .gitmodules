@@ -1,3 +1,6 @@
 [submodule "holehe"]
 	path = holehe
 	url = https://github.com/benchtown/holehe.git
+[submodule "theHarvester"]
+	path = theHarvester
+	url = https://github.com/larose/theHarvester.git
