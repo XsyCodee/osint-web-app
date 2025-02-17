@@ -10,7 +10,7 @@ This is an Open Source Intelligence (OSINT) tool that combines several tools for
 ## Requirements
 Before you start, make sure you have Python and the following tools installed on your system:
 
-1. **Python 3.x**: To run Python scripts.
+1. **Python 3.11+**: To run Python scripts.
 2. **Holehe** and **TheHarvester**: Two OSINT tools for email and domain information retrieval. You will install them through the terminal.
 3. **Sherlock**: Tool for searching for usernames on various social media platforms.
 
@@ -37,7 +37,7 @@ pip install -r requirements.txt
 **Harvester
 ``` bash
 git clone https://github.com/laramies/theHarvester.git
-cd the Harvester
+cd theHarvester
 pip install -r requirements.txt
 ```
 
